@@ -11,7 +11,7 @@ gcloud services enable \
     cloudbuild.googleapis.com containerregistry.googleapis.com
 ```
 
-Make sure you see the pubsub robot account with the Pubsub Service Agent Role allocated, otherwise, disbale and re-enable pubsub
+Make sure you see the pubsub robot account with the Pubsub Service Agent Role allocated, otherwise, disable and re-enable pubsub
 ![alt text](image.png)
 
 ## To deploy the sample code to a Cloud Function  
