@@ -36,7 +36,7 @@ gcloud functions deploy function_pb_bq --gen2 \
   --trigger-topic=neptune-activities \
   --entry-point=pubsub_to_bigquery \
   --memory=256MB 
-  #--service-account=$(gcloud projects list --filter="PROJECT_ID=$DEVSHELL_PROJECT_ID" --format "value(PROJECT_NUMBER)")-compute@developer.gserviceaccount.com # Amend this line depending on whether you can use custom service accounts or not in your project
+  --service-account=$(gcloud projects list --filter="PROJECT_ID=$DEVSHELL_PROJECT_ID" --format "value(PROJECT_NUMBER)")-compute@developer.gserviceaccount.com # Amend this line depending on whether you can use custom service accounts or not in your project
 ```
 
 ## Additional Goals:  
